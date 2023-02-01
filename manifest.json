@@ -1,0 +1,21 @@
+{
+    "short_name": "سيما",
+    "name": "سيما للتسويق الإلكتروني",
+    "icons": [
+      {
+        "src": "/images/orange_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/orange_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.php?source=pwa",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#111"
+  }

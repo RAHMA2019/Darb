@@ -1,0 +1,209 @@
+*{
+  box-sizing: border-box;
+}
+    
+body {
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+}
+
+/*services*/
+.container{
+  height: 1200px;
+}
+  
+#serv{
+    width: 100%;
+    height: 330px;
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  
+#serv1{
+    width: 100%;
+    height: 330px;
+    margin: 100px 0px;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}  
+.serv_card{
+    width: 22%;
+    height: 330px;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 30px 15px rgba(138, 138, 138, 0.25), 
+    -5px -5px 30px 15px rgba(145, 145, 145, 0.22);
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    cursor: pointer;
+}
+  
+.serv_card:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    transition: all .4s ease; 
+}
+
+#header1{
+    background-color:rgb(162, 180, 190);
+}
+#header2{
+    background-color: #78e4c0;
+}
+
+#header3{
+    background-color: #f5cb4d;
+}
+#header4{
+    background-color:rgb(255, 140, 159);
+}
+h3{
+    text-align: center;
+    color:#fff;
+}
+
+p{
+    color: rgb(138, 138, 138);
+    font-size: 18px;
+    text-align: center;
+    padding:12px 28px;
+    padding-top: 20px;
+}
+
+.servForm{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .servForm h3{
+    color: #15b3bf;
+    margin-top: 100px;
+  }
+  
+  form{
+    padding: 20px;
+  }
+  
+  
+  input[type=submit]{
+    border: none;
+    color: white;
+    padding: 12px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 12px;
+    font-family: 'Tajawal', sans-serif;
+    cursor: pointer;
+    background-color: #15b3bf; 
+  }
+  
+  input[type=submit]:hover {
+    background-color:#b19263;
+  }
+  
+  input[type=submit]:active{
+    transform: scale(0.95);
+  }
+  
+  input[type=email], input[type=text],input[type=tel]{
+    color: #333;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px;
+    width: 30%;
+    border: 1px solid #999;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Tajawal', sans-serif;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  
+  #info{
+    width: 30%;
+  }
+  
+  .error{
+    color: indianred;
+    font-size: 16px;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+@media (max-width: 1200px){
+ /*container*/
+ .container{
+    height: 2350px;
+  }
+   /*services*/
+   #serv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #serv1{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   .serv_card{
+	  width: 60%;
+    }
+
+.features{
+  font-size: 16px;
+}
+
+
+input[type=submit]{
+  padding: 9px 100px;
+}
+
+input[type=submit]:hover {
+  background-color:#b19263;
+}
+
+input[type=submit]:active{
+  transform: scale(0.95);
+}
+
+input[type=email], input[type=text],input[type=tel]{
+  width: 80%;
+  padding: 9px 30px;
+}
+
+#info{
+  width: 80%;
+}
+  
+}
+
+
+
+  
